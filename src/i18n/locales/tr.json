@@ -1,5 +1,8 @@
 {
   "welcome": "MyApp'e Hoşgeldiniz",
   "login": "Giriş Yap",
-  "logout": "Çıkış Yap"
+  "logout": "Çıkış Yap",
+  "detail": "Detaylar",
+  "goToDetails": "Detaylara Git",
+  "home": "Anasayfa"
 }

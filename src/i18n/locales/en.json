@@ -1,5 +1,8 @@
 {
   "welcome": "Welcome to MyApp",
   "login": "Login",
-  "logout": "Logout"
+  "logout": "Logout",
+  "detail": "Details",
+  "goToDetails": "Go to Details",
+  "home": "Home"
 }
