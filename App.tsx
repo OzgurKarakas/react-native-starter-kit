@@ -12,7 +12,6 @@ import { useTranslation } from 'react-i18next';
 import LanguageSelector from './src/components/common/LanguageSelector/LanguageSelector';
 import { QueryClientProvider } from '@tanstack/react-query';
 import { queryClient } from './src/services/queryClient';
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
 function App() {
   const { t } = useTranslation();
@@ -33,7 +32,6 @@ function App() {
           <Text className="text-2xl ">{t('welcome')}</Text>
         </View>
       </SafeAreaProvider>
-      {__DEV__ && <ReactQueryDevtools initialIsOpen={false} />}
     </QueryClientProvider>
   );
 }
